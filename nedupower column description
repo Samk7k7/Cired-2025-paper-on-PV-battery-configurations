@@ -1,0 +1,12 @@
+This file represents the column description of the file_path_timeseries = r"C:/Users/cusa/Downloads/nedupower.csv" used in the simulation and csv attached as nedupower
+nedupower represents the yearly hourly energy flow simulation results from SAM and the energy flow model methodology descriped in the methodology.
+time_step: hourly time step;	SI: ScenarioI energy flow results in kW;	S2:ScenarioII energy flow results in kW;	S3:ScenarioIII energy flow results in kW;	
+SY1_G: ScenarioI energy flow results in MW representing only net generation (negative values of SI/1000 in MW;	
+SY1_L:ScenarioI energy flow results in MW representing only net load (positve values of SI/1000 in MW);		
+SY2_G:ScenarioII energy flow results in MW representing only net generation (negative values of SI/1000 in MW);
+SY2_L:ScenarioII energy flow results in MW representing only net load (positve values of SI/1000 in MW);	
+SY3_G:ScenarioIII energy flow results in MW representing only net generation (negative values of SI/1000 in MW);
+SY3L:ScenarioIII energy flow results in MW representing only net load (positve values of SI/1000 in MW);		
+BawY:	ScenarioI energy flow results in kW of the baseline descriped below;
+BY_G: Baseline energy flow results in kW representing only net generation (negative values of BawY/1000 in MW);	This baseline is a system with PV and no batteries. However, there is a direct consumption by the PV by load.
+This idea was used to reduce simulation time, power flow from not converging and to focus on the effect of the PV surplus(net generation) on the grid.
