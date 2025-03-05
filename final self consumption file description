@@ -1,2 +1,3 @@
-The final self-consumption file description represents the energy flow calculations and modesl and the battery steering approach. It has self-consumption that prioritiets peak shaving
+The final self consumption file description represents the energy flow calculations and modesl and the battery steering approach. It has self-consumption that prioritises peak shaving
 to reduce grid peaks and solar peaks.
+Though the name reflects summer, but it is a generalcode for the winter, summer and yearly by updating the file
