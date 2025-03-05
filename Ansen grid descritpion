@@ -1,0 +1,5 @@
+The grid used in this work is based on the Ansen grid which can only be available upon request due to privacy.
+However, it is possible to use your on existing grid or design one in pandapower.
+The grid used was based on the LV transformer real data.
+The transformer capacity is 160kVA.
+An external grid wit 1.0pu was used.
