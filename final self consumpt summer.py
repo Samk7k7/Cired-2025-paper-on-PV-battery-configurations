@@ -20,6 +20,7 @@ import matplotlib.pyplot as plt
 # 1) LOAD DATA from winter house load profile,summer houseload profile and yearly load nedu profile
 ###############################################################################
 csv_path = r"C:/Users/cusa/Downloads/data studiesnedu.csv" #change file based on the season or yearly studies
+#This file is for the swinter containing actual data of the 9 participants. temperature and irradiance during the studie period
 df = pd.read_csv(csv_path)
 
 print("Columns:", df.columns.tolist())
